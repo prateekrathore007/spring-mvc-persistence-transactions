@@ -2,6 +2,11 @@
 
 This is a mini web application to manage office phones and phone users through create, view, update, and delete. This application needs to be hosted on a Tomcat server. It uses Spring’s MVC framework for the UI implementation, and JPA for the persistence.
 
+### Technologies
+* Tomcat 8
+* MySQL 5.6
+* Java 1.8
+* Spring 4.1.4
 
 ### Relationship Between Objects
 * Each phone can be assigned to multiple users, and each user can have multiple phones. 
