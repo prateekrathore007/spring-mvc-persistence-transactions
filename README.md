@@ -159,5 +159,9 @@ Method: DELETE
 This request deletes the phone for the given phone ID. 
 * If the phone does not exist, it returns the same 404 page as in (1) with error code 404.
 * A phone cannot be deleted if it’s still assigned, or 400 errors will be returned.
-* Otherwise, the corresponding phone is deleted, and redirected to the phone creation page at https://hostname/phone.  
+* Otherwise, deletes the corresponding phone, and request is redirected to the phone creation page at https://hostname/phone.  
 * The phones are also unassigned from the user.
+
+### Project Members:
+* Shubham Vadhera
+* Sagar C. Dafle
